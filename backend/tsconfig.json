@@ -3,17 +3,19 @@
   "compilerOptions": {
     // File Layout
     // "rootDir": "./src",
-    // "outDir": "./dist",
+    "outDir": "./dist",
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
     "esModuleInterop": true,
-    "allowImportingTsExtensions": true,
+    // "allowImportingTsExtensions": true,
+    // Required when allowImportingTsExtensions is enabled
+    // "emitDeclarationOnly": true,
     "target": "esnext",
-    "noEmit": true,
-    "types": [],
+    // "noEmit": true,
+    "types": ["node"],
     // For nodejs:
     // "lib": ["esnext"],
     // "types": ["node"],

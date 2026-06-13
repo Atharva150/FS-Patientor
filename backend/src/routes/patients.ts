@@ -1,6 +1,6 @@
 import express from "express";
-import patientService from "../services/patientService.ts";
-import { NewEntrySchema, NewPatientSchema } from "../utils.ts";
+import patientService from "../services/patientService.js";
+import { NewEntrySchema, NewPatientSchema } from "../utils.js";
 
 import { ZodError } from "zod";
 const router = express.Router();

@@ -1,4 +1,4 @@
-import{ Gender, type NewPatient, HealthCheckRating } from './types.ts';
+import{ Gender, type NewPatient, HealthCheckRating } from './types.js';
 
 
 import { z } from 'zod';

@@ -1,13 +1,13 @@
   import express from 'express';
-  import diagnosisRouter from './src/routes/diagnosis.ts';
-  import patientRouter from './src/routes/patients.ts';
+  import diagnosisRouter from './src/routes/diagnosis.js';
+  import patientRouter from './src/routes/patients.js';
   import cors from 'cors';
   const app = express();
   app.use(express.json());
   app.use(cors())
   app.use("/api/diagnosis", diagnosisRouter);
   app.use("/api/patients", patientRouter);
-  const PORT = 3001;
+const PORT = process.env.PORT || 3001;
 
   app.get('/api/ping', (_req, res) => {
     console.log('someone pinged here');
