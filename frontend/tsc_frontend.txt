@@ -1,0 +1,36 @@
+src/components/AddPatientModal/AddPatientForm.tsx(34,19): error TS2345: Argument of type '"male" | "female" | "other"' is not assignable to parameter of type 'SetStateAction<"other">'.
+  Type '"male"' is not assignable to type 'SetStateAction<"other">'.
+src/components/PatientPage/index.tsx(153,11): error TS2322: Type 'string | Record<string, string>' is not assignable to type 'ReactNode'.
+  Type 'Record<string, string>' is not assignable to type 'ReactNode'.
+    Type 'Record<string, string>' is missing the following properties from type 'ReactPortal': children, type, props, key
+src/components/PatientPage/index.tsx(160,11): error TS2322: Type 'string | Record<string, string>' is not assignable to type 'ReactNode'.
+  Type 'Record<string, string>' is not assignable to type 'ReactNode'.
+    Type 'Record<string, string>' is missing the following properties from type 'ReactPortal': children, type, props, key
+src/components/PatientPage/index.tsx(167,11): error TS2322: Type 'string | Record<string, string>' is not assignable to type 'ReactNode'.
+  Type 'Record<string, string>' is not assignable to type 'ReactNode'.
+    Type 'Record<string, string>' is missing the following properties from type 'ReactPortal': children, type, props, key
+src/components/PatientPage/index.tsx(174,11): error TS2322: Type 'string | Record<string, string>' is not assignable to type 'ReactNode'.
+  Type 'Record<string, string>' is not assignable to type 'ReactNode'.
+    Type 'Record<string, string>' is missing the following properties from type 'ReactPortal': children, type, props, key
+src/components/PatientPage/index.tsx(183,13): error TS2322: Type 'string | Record<string, string>' is not assignable to type 'ReactNode'.
+  Type 'Record<string, string>' is not assignable to type 'ReactNode'.
+    Type 'Record<string, string>' is missing the following properties from type 'ReactPortal': children, type, props, key
+src/components/PatientPage/index.tsx(193,53): error TS2339: Property 'date' does not exist on type 'string | Record<string, string>'.
+  Property 'date' does not exist on type 'string'.
+src/components/PatientPage/index.tsx(194,50): error TS2339: Property 'date' does not exist on type 'string | Record<string, string>'.
+  Property 'date' does not exist on type 'string'.
+src/components/PatientPage/index.tsx(200,53): error TS2339: Property 'criteria' does not exist on type 'string | Record<string, string>'.
+  Property 'criteria' does not exist on type 'string'.
+src/components/PatientPage/index.tsx(201,50): error TS2339: Property 'criteria' does not exist on type 'string | Record<string, string>'.
+  Property 'criteria' does not exist on type 'string'.
+src/components/PatientPage/index.tsx(213,15): error TS2322: Type 'string | Record<string, string>' is not assignable to type 'ReactNode'.
+  Type 'Record<string, string>' is not assignable to type 'ReactNode'.
+    Type 'Record<string, string>' is missing the following properties from type 'ReactPortal': children, type, props, key
+src/components/PatientPage/index.tsx(219,53): error TS2339: Property 'startDate' does not exist on type 'string | Record<string, string>'.
+  Property 'startDate' does not exist on type 'string'.
+src/components/PatientPage/index.tsx(220,50): error TS2339: Property 'startDate' does not exist on type 'string | Record<string, string>'.
+  Property 'startDate' does not exist on type 'string'.
+src/components/PatientPage/index.tsx(226,53): error TS2339: Property 'endDate' does not exist on type 'string | Record<string, string>'.
+  Property 'endDate' does not exist on type 'string'.
+src/components/PatientPage/index.tsx(227,50): error TS2339: Property 'endDate' does not exist on type 'string | Record<string, string>'.
+  Property 'endDate' does not exist on type 'string'.

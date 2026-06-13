@@ -1,0 +1,24 @@
+src/components/AddPatientModal/AddPatientForm.tsx(36,19): error TS2345: Argument of type '"male" | "female" | "other"' is not assignable to parameter of type 'SetStateAction<"other">'.
+  Type '"male"' is not assignable to type 'SetStateAction<"other">'.
+src/components/PatientPage/index.tsx(187,13): error TS2322: Type 'string | Record<string, string>' is not assignable to type 'ReactNode'.
+  Type 'Record<string, string>' is not assignable to type 'ReactNode'.
+    Type 'Record<string, string>' is missing the following properties from type 'ReactPortal': children, type, props, key
+src/components/PatientPage/index.tsx(197,53): error TS2339: Property 'date' does not exist on type 'string | Record<string, string>'.
+  Property 'date' does not exist on type 'string'.
+src/components/PatientPage/index.tsx(198,50): error TS2339: Property 'date' does not exist on type 'string | Record<string, string>'.
+  Property 'date' does not exist on type 'string'.
+src/components/PatientPage/index.tsx(204,53): error TS2339: Property 'criteria' does not exist on type 'string | Record<string, string>'.
+  Property 'criteria' does not exist on type 'string'.
+src/components/PatientPage/index.tsx(205,50): error TS2339: Property 'criteria' does not exist on type 'string | Record<string, string>'.
+  Property 'criteria' does not exist on type 'string'.
+src/components/PatientPage/index.tsx(217,15): error TS2322: Type 'string | Record<string, string>' is not assignable to type 'ReactNode'.
+  Type 'Record<string, string>' is not assignable to type 'ReactNode'.
+    Type 'Record<string, string>' is missing the following properties from type 'ReactPortal': children, type, props, key
+src/components/PatientPage/index.tsx(223,53): error TS2339: Property 'startDate' does not exist on type 'string | Record<string, string>'.
+  Property 'startDate' does not exist on type 'string'.
+src/components/PatientPage/index.tsx(224,50): error TS2339: Property 'startDate' does not exist on type 'string | Record<string, string>'.
+  Property 'startDate' does not exist on type 'string'.
+src/components/PatientPage/index.tsx(230,53): error TS2339: Property 'endDate' does not exist on type 'string | Record<string, string>'.
+  Property 'endDate' does not exist on type 'string'.
+src/components/PatientPage/index.tsx(231,50): error TS2339: Property 'endDate' does not exist on type 'string | Record<string, string>'.
+  Property 'endDate' does not exist on type 'string'.
