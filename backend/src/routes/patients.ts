@@ -30,7 +30,7 @@ router.post('/', (req, res) => {
     const addedPatient =
       patientService.addPatient(newPatient);
 
-    res.status(201).json(
+    return res.status(201).json(
       addedPatient
     );
 
